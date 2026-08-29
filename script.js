@@ -78,11 +78,11 @@ function playGame() {
         computerScore++;
     }
     }
-    playRound(getHumanChoice(), getComputerChoice());
-    playRound(getHumanChoice(), getComputerChoice());
-    playRound(getHumanChoice(), getComputerChoice());
-    playRound(getHumanChoice(), getComputerChoice());
-    playRound(getHumanChoice(), getComputerChoice());
+    // playRound(getHumanChoice(), getComputerChoice());
+    // playRound(getHumanChoice(), getComputerChoice());
+    // playRound(getHumanChoice(), getComputerChoice());
+    // playRound(getHumanChoice(), getComputerChoice());
+    // playRound(getHumanChoice(), getComputerChoice());
 
     if (humanScore > computerScore) {
         console.log(`You win! your score was ${humanScore} while the computer score was ${computerScore} `)
