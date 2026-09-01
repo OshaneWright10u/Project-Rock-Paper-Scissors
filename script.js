@@ -92,4 +92,7 @@ function playGame() {
         console.log(`Its a tie! your score was ${humanScore} while the computer score was ${computerScore} `)
     }
 }
+let rock = document.querySelector('#rock');
+let paper = document.querySelector('#paper');
+let scissors = document.querySelector('#scissors');
 playGame();
